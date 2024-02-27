@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://kit.fontawesome.com/6090028aa5.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="mobile-container">
+        <!-- <input type="text" placeholder='search'> -->
+
+        <div class="heading">
+          <h3>
+            Cooking Experience <br />
+            Like a Chef
+          </h3>
+        </div>
+        <div class="matter">
+          <p>
+            Let's make a delicious dish with <br />the best recipe for the
+            family
+          </p>
+        </div>
+        <button class="btn1">
+          <span class="rightArrow">&rarr;</span>
+          <span class="btnText">Get Started</span>
+        </button>
+      </div>
+      <div class="display-container">
+
+        <div class="topHeader">
+          <img src="backButton.png" alt=""  class="backButton">
+          <h2 class="heading2">
+            Find Best Recipe <br />
+            For Cooking
+          </h2>
+          <header class="header">
+            <input type="searchs" class="input" placeholder="search" />
+            <i class="fa fa-search" style="font-size: 16px" id="searchBtn"></i>
+          </header>
+        </div>
+        <div class="box">
+          <h4 style="font-family: cursive">Favourites</h4>
+          <div class="favImg">
+            <div class="pack" id="Lime">
+              <img
+                id="Lime 1"
+                class="favImgs"
+                src="Lime-Small.png"
+                alt="1. With a citrus squeezer: Cut your lime in half, and place one of these halves in a citrus squeezer with the cut side facing toward the holes. Take the two handles of the squeezer, and squeeze them together over a glass. Lime juice will pour out and into your glass. 
+          
+              2. With a handheld reamer: Instead of using the reamer built into a citrus juicer, try using a handheld plastic or wooden reamer. Simply slice the lime in half, then twist the reamer into one of the halves, slowly spinning it to break the membranes and extract juice.
+              3. By hand: Simply halve the lime with a knife, place it in the palm of your hand with the cut side facing away from your palm, and compress your hand into a fist to release the juice"
+              />
+              <h6>Lime</h6>
+            </div>
+
+            <div class="pack" id="Spicy Pasta 1">
+              <img
+                id="Spicy Pasta"
+                class="favImgs"
+                src="https://www.themealdb.com//images//media//meals//ustsqw1468250014.jpg"
+                alt="1.Boil Water and Macaroni to it. Cook up to 90% and let cool.    break
+                2.Heat oil in a pan, add Cumin Seeds, Garlic, Green Chillies, and fry. Add chopped Onions and fry until the onions become soft. break
+                3.Once the Onions are fried, add the chopped Tomatoes, Turmeric, Coriander Powder, Salt, Mirchi Powder, Cumin Seeds Powder, Pepper Powder, Garam Masala and cook until the tomatoes soften. 
+                4.After the Tomatoes are cooked more than half, add the chopped Capsicum, fry for a minute and then add water and let it cook on a high flame.
+                5.In the boiling water, add the cooked Macaroni and Green Peas and cook until the water evaporates.
+                6.Before the Pasta is taken off the fire, add Lemon Juice and chopped Green Coriander. Mix and serve hot.
+                "
+              />
+              <h6>Spicy Pasta</h6>
+            </div>
+            <div class="pack" id="Stuffed Lamb Tomtoes 1">
+              <img
+                id="Stuffed Lamb Tomtoes"
+                class="favImgs"
+                src="https://www.themealdb.com//images//media//meals//u55lbp1585564013.jpg"
+                alt="1.Preheat the oven to 180 C, gas mark 4. In a bowl, cover the barberries with just-boiled water from the kettle; set aside to plump up. Meanwhile, cut off the tops of the tomatoes (reserve them for later) and scoop out the insides with a spoon. Discard the seeds and finely chop any leftover flesh. Put the bases in a baking dish, ensuring they fit snugly.
+
+                2. Heat 1⁄2 tbsp oil in a large frying pan over a medium-high heat. Fry the onion and garlic for 2-3 minutes until starting to soften. Add the lamb, season and fry for 8-10 minutes until any excess liquid has evaporated, the lamb is browned and no pink meat remains. Stir in the tomato purée and spices; fry for 2 minutes more. Add any chopped tomato flesh and the rice, and fry for a final 2 minutes.
+                
+                3. Drain the barberries and stir into the pan with the dill, lemon zest and juice. Check the seasoning, adding more salt, pepper or lemon juice to taste. Pile the mixture into the hollowed-out tomatoes and top with the lids. Drizzle with the remaining 1 tbsp oil and bake for 25-35 minutes, until the tops are starting to blister, and the tomato shells are soft but not collapsing. Serve with a green salad, if liked."
+              />
+              <h6>Stuffed Lamb Tomatoes</h6>
+            </div>
+          </div>
+        </div>
+
+       
+        <div class="recipes">
+<p class="notAvailable"></p>
+          <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-heart-fill" 
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
+          />
+        </svg>
+
+          <div class="randomRecipe">
+            <h4 class="recipeHead">Recipe of the Day</h4>
+            <img class="mealRecipe" src="" alt="" />
+            <p class="mealName"></p>
+          </div>
+        </div>
+      </div>
+      <div class="pop-up"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

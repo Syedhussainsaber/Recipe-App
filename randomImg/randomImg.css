@@ -1,0 +1,27 @@
+.container{
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+    width: 600px;
+    margin: 20px auto;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    width: 400px;
+}
+button{
+
+    width: 94px;
+margin: 15px;
+border-radius: 5px;
+border: black;
+height: 26px;
+cursor: pointer;
+}
